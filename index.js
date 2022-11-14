@@ -19,5 +19,6 @@ document.getElementById('st').addEventListener("click",() => {
 });
 
 document.getElementById('ab').addEventListener("click",() => {
-    window.location.replace("youtube.com");
+    window.location.replace("https://youtube.com");
+    console.log('you changed adress');
 });
