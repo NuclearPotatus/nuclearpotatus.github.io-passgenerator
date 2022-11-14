@@ -18,6 +18,6 @@ document.getElementById('st').addEventListener("click",() => {
     document.getElementById("result").innerHTML = result
 });
 
-document.getElementById('st').addEventListener("click",() => {
+document.getElementById('ab').addEventListener("click",() => {
     window.location.replace("youtube.com");
 });
