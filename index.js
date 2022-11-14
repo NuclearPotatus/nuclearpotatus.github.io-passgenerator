@@ -18,7 +18,11 @@ document.getElementById('st').addEventListener("click",() => {
     document.getElementById("result").innerHTML = result
 });
 
+
+function Redirect() {
+    location.assign("https://www.youtube.com);
+};
+
 document.getElementById('ab').addEventListener("click",() => {
-    window.location.replace("https://youtube.com");
-    console.log('you changed adress');
+    Redirect();
 });
