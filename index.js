@@ -17,3 +17,7 @@ document.getElementById('st').addEventListener("click",() => {
     var result = (char1 + char2 + char3 + char4 + char5 + char6 + char7 + char8 + char9 + char10)
     document.getElementById("result").innerHTML = result
 });
+
+document.getElementById('st').addEventListener("click",() => {
+    window.location.replace("youtube.com");
+});
