@@ -20,7 +20,7 @@ document.getElementById('st').addEventListener("click",() => {
 
 
 function Redirect() {
-    location.assign("https://www.youtube.com);
+    location.assign("https://www.youtube.com");
 };
 
 document.getElementById('ab').addEventListener("click",() => {
